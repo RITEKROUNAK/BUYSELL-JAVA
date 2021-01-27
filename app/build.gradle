@@ -1,0 +1,174 @@
+apply plugin: 'com.android.application'
+//apply plugin: 'com.getkeepsafe.dexcount'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'io.fabric'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion '29.0.2'
+
+    defaultConfig {
+        applicationId "com.panaceasoft.psbuyandsell"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 25
+        versionName "3.0"
+        multiDexEnabled true
+    }
+    // 3.0 = 25
+    // 3.0 = 24
+    // 2.9 = 23
+    // 2.8 = 22
+    // 2.7 = 21
+    // 2.6 = 20
+    // 2.5 = 19
+    // 2.5 = 18
+    // 2.4 = 17
+    // 2.3 = 16
+    // 2.3 = 15
+    // 2.2 = 14
+    // 2.1 = 13
+    // 2.0 = 12
+    // 1.9 = 11
+    // 1.8 = 10
+    // 1.7 = 9
+    // 1.6 = 8
+    // 1.5 = 7
+    // 1.4 = 6
+    // 1.3 = 5
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+
+    buildFeatures {
+        dataBinding true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        url  "https://cardinalcommerce.bintray.com/android"
+        credentials {
+            username 'braintree-team-sdk@cardinalcommerce'
+            password '220cc9476025679c4e5c843666c27d97cfb0f951'
+        }
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.multidex:multidex:2.0.1'
+
+    // Google Support Lib
+    implementation "androidx.appcompat:appcompat:1.2.0"
+    implementation "androidx.cardview:cardview:1.0.0"
+    implementation "androidx.recyclerview:recyclerview:1.1.0"
+    implementation "com.google.android.material:material:1.2.1"
+    implementation "androidx.palette:palette:1.0.0"
+    implementation "androidx.legacy:legacy-support-v4:1.0.0"
+    implementation "androidx.browser:browser:1.2.0"
+    annotationProcessor "androidx.databinding:databinding-compiler:4.0.1"
+
+    // Constraint Layout
+    implementation "androidx.constraintlayout:constraintlayout:2.0.1"
+
+    //google login
+    implementation 'com.google.android.gms:play-services-auth:18.1.0'
+
+    // Google GMS
+    implementation "com.google.android.gms:play-services-maps:17.0.0"
+    implementation "com.google.android.gms:play-services-gcm:17.0.0"
+    implementation "com.google.android.gms:play-services-ads:19.4.0"
+
+    // Firebase
+    implementation "com.google.firebase:firebase-core:17.5.0"
+    implementation "com.google.firebase:firebase-messaging:20.2.4"
+    implementation 'com.crashlytics.sdk.android:crashlytics:2.10.1'
+    implementation 'com.google.firebase:firebase-database:19.4.0'
+    implementation 'com.google.firebase:firebase-auth:19.4.0'
+    implementation "com.google.android.gms:play-services-gcm:17.0.0"
+    implementation 'com.google.firebase:firebase-storage:19.2.0'
+
+    // Dagger 2
+    implementation "com.google.dagger:dagger:2.24"
+    implementation "com.google.dagger:dagger-android-support:2.24"
+    annotationProcessor "com.google.dagger:dagger-android-processor:2.24"
+    annotationProcessor "com.google.dagger:dagger-compiler:2.24"
+
+    // Retrofit
+    implementation "com.squareup.retrofit2:retrofit:2.4.0"
+    implementation "com.squareup.retrofit2:converter-gson:2.4.0"
+
+    // Lifecycle Arch
+    implementation "androidx.lifecycle:lifecycle-runtime:2.2.0"
+    implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
+    implementation "androidx.lifecycle:lifecycle-common-java8:2.2.0"
+    annotationProcessor "androidx.lifecycle:lifecycle-compiler:2.2.0"
+
+    // Glide
+    implementation "com.github.bumptech.glide:glide:4.10.0"
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.10.0'
+
+    // Room
+    implementation "androidx.room:room-runtime:2.2.5"
+    annotationProcessor "androidx.room:room-compiler:2.2.5"
+
+    // AsyncHttp
+    implementation 'com.loopj.android:android-async-http:1.4.9'
+
+    //fblogin
+    implementation 'com.facebook.android:facebook-login:5.5.1'
+
+    //FlexBoxLayout
+    //Please use 1.0.0 if you haven't migrated to AndroidX.
+    implementation 'com.google.android:flexbox:1.1.0'
+
+    //MultiDex
+    implementation 'androidx.multidex:multidex:2.0.1'
+
+    //heart animation
+    implementation 'com.github.jd-alexander:LikeButton:0.2.3'
+    implementation 'com.mikepenz:iconics-core:2.9.1@aar'
+    implementation 'com.mikepenz:community-material-typeface:1.3.41.1@aar'
+
+    //GDPR
+    implementation 'com.google.android.ads.consent:consent-library:1.0.8'
+
+    //Stripe Payment
+    implementation 'com.stripe:stripe-android:10.4.6'
+
+    //Paystack Payment
+    implementation 'co.paystack.android:paystack:3.0.17'
+    implementation 'co.paystack.android.design.widget:pinpad:1.0.4'
+
+    //BrainTree
+    implementation 'com.braintreepayments.api:drop-in:4.6.0'
+
+
+    //razor
+    implementation 'com.razorpay:checkout:1.5.16'
+
+    //in app purchase
+    def billing_version = "3.0.0"
+    implementation "com.android.billingclient:billing:$billing_version"
+
+    // Google Play Billing Library.
+    implementation 'com.android.billingclient:billing:3.0.0'
+
+}

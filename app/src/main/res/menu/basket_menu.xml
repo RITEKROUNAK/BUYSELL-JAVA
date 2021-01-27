@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_basket"
+        android:icon="@drawable/baseline_shop_icon_with_light_and_grey_bg_white_24"
+        app:iconTint="@color/md_white_1000"
+        app:iconTintMode="multiply"
+        android:orderInCategory="100"
+        android:title="Favourite"
+        app:showAsAction="always"
+        />
+</menu>

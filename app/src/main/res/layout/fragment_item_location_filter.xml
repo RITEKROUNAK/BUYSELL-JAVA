@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="itemlocationfilter"
+            type="com.panaceasoft.psbuyandsell.viewobject.ItemLocation" />
+    </data>
+
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/selectFilterConstraint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <TextView
+        android:id="@+id/name_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/location_filter__name"
+        android:textSize="@dimen/font_title_size"
+        app:font='@{"bold"}'
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="30dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/keyword_EditText"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="@dimen/space_20"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="@dimen/space_20"
+        android:background="@drawable/custom_progress_bar_horizontal"
+        android:ems="10"
+        android:hint="@string/dashboard_keyword"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:paddingStart="@dimen/space_8"
+        android:paddingTop="@dimen/space_8"
+        android:paddingEnd="@dimen/space_8"
+        android:paddingBottom="@dimen/space_8"
+        android:textColor="@color/text__primary"
+        android:textSize="@dimen/font_body_size"
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/name_textView" />
+
+    <TextView
+        android:id="@+id/textView_ordering"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/location_filter__ordering"
+        android:textSize="@dimen/font_body_size"
+        android:textAlignment="viewStart"
+        app:font='@{"bold"}'
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/keyword_EditText" />
+
+
+    <RadioGroup
+        android:id="@+id/orderByRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_ordering"
+        tools:ignore="MissingConstraints"
+
+        >
+
+        <RadioButton
+            android:id="@+id/defaultRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/location_filter__app_default"
+            app:font='@{"normal"}'
+            android:layout_marginStart="20dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_ordering"
+            tools:ignore="MissingConstraints" />
+
+        <RadioButton
+            android:id="@+id/latestDateRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/location_filter__latest"
+            android:layout_marginStart="20dp"
+            app:layout_constraintStart_toEndOf="@+id/defaultRadioButton"
+            app:layout_constraintTop_toBottomOf="@+id/textView_ordering"
+            tools:ignore="MissingConstraints" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/orderTypeRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/view39"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp">
+
+        <RadioButton
+            android:id="@+id/ascRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="@string/location_filter__ascending"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/defaultRadioButton" />
+
+        <RadioButton
+            android:id="@+id/descRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/location_filter__descending"
+            app:layout_constraintStart_toEndOf="@+id/ascRadioButton"
+            app:layout_constraintTop_toBottomOf="@+id/latestDateRadioButton" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/filterButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="@dimen/space_40"
+        android:layout_marginEnd="16dp"
+        android:text="@string/location_filter__button"
+        android:textColor="@color/md_white_1000"
+        app:font='@{"normal"}'
+        app:layout_constraintCircleRadius="@dimen/space_16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/orderTypeRadioGroup"
+        app:layout_constraintVertical_bias="0.686" />
+
+    <View
+        android:id="@+id/view39"
+        android:layout_width="130dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:background="#3E4042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/orderByRadioGroup"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

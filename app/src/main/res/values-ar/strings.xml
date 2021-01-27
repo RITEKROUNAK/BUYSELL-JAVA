@@ -1,0 +1,745 @@
+<resources>
+
+    <!--History -->
+    <string name="history__title">التاريخ</string>
+    <string name="title__activity_user_history_list">UserHistoryListActivity</string>
+
+    <!-- Favourite -->
+    <string name="favourite__title">المفضلة</string>
+
+    <!-- FB Register -->
+    <string name="fb_register__welcome">مرحبا من %1$s </string>
+    <string name="fb_register__desc">يرجى تسجيل الدخول لاستخدام جميع ميزات التطبيق.</string>
+
+    <!-- Gallery -->
+    <string name="gallery__title">صالة عرض</string>
+    <string name="gallery_image__gallery">معرض الصور</string>
+    <string name="gallery_img__desc">وصف الصورة</string>
+
+    <!-- Image Related -->
+    <string name="image_default__image">الصورة الافتراضية</string>
+
+    <!-- App General -->
+    <string name="app__app_name">PSBuySell</string>
+    <string name="app__ok">حسنا</string>
+    <string name="app__cancel">إلغاء</string>
+    <string name="app__noti_open">افتح</string>
+    <string name="app__noti_new_message">رسالة جديدة</string>
+    <string name="app__drawer_open">فتح الدرج</string>
+    <string name="app__drawer_close">إغلاق الدرج</string>
+    <string name="app__rating_message">لقد تلقيت جديدة</string>
+    <string name="app__rating_star">تصنيف النجوم.</string>
+
+    <string name="menu__fb_login">تسجيل الدخول الى الفيسبوك</string>
+    <string name="menu__comment_list">قائمة التعليقات</string>
+    <string name="menu__notification_list">قائمة الإخطار</string>
+
+    <!-- Register -->
+    <string name="register__user_name">اسم المستخدم</string>
+    <string name="register__email">البريد الإلكتروني</string>
+    <string name="register__password">كلمه السر</string>
+    <string name="register__back_to_login">عضو بالفعل؟ تسجيل الدخول</string>
+    <string name="register__register">تسجيل</string>
+    <string name="register__new_account">تسجيل حساب مستخدم جديد</string>
+    <string name="register__check_option">هل توافق على هذه الخصوصية والسياسة؟</string>
+
+    <!-- Forgot Password -->
+    <string name="forgot_password__title">هل نسيت كلمة المرور</string>
+    <string name="forgot_password__email">البريد الإلكتروني</string>
+    <string name="forgot_password__back_to_login">عضو بالفعل؟ تسجيل الدخول</string>
+    <string name="forgot_password__password_recovery">استعادة كلمة السر</string>
+    <string name="forgot_password__save">حفظ</string>
+    <string name="forgot_password__send">إرسال</string>
+
+    <!-- Password Change -->
+    <string name="password_change__password">كلمه السر</string>
+    <string name="password_change__save">حفظ</string>
+    <string name="password_change__confirm_password">تأكيد كلمة المرور</string>
+    <string name="password_change__password_change">تغيير كلمة السر</string>
+
+    <!-- Login -->
+    <string name="login__email">البريد الإلكتروني</string>
+    <string name="login__password">كلمه السر</string>
+    <string name="login__not_a_member_join_now">جديد هنا؟ سجل</string>
+    <string name="login__forgot_your_password">هل نسيت كلمة المرور ؟</string>
+    <string name="login__login">تسجيل الدخول</string>
+    <string name="login__welcome_title">مرحبًا بك في PS Market Place</string>
+    <string name="login__choice_text">أو</string>
+    <string name="login__with_phone">في تسجيل الدخول مع الهاتف</string>
+    <string name="login__with_google">الدخول مع جوجل</string>
+    <string name="login__exception_error">هناك شيء خاطئ.</string>
+    <string name="login__failure_error">المصادقة فشلت.</string>
+    <string name="login__auth_email">يتم تسجيل هذا البريد الإلكتروني في مع البريد الإلكتروني وكلمة المرور. يرجى المحاولة للدخول مع البريد الإلكتروني وكلمة المرور.</string>
+    <string name="login__auth_google">يتم تسجيل هذا البريد الإلكتروني الدخول مع جوجل. يرجى المحاولة للدخول مع جوجل.</string>
+    <string name="login__auth_facebook">يتم تسجيل هذا البريد الإلكتروني في مع الفيسبوك. يرجى المحاولة للدخول مع الفيسبوك.</string>
+    <string name="login__fail">فشل تسجيل الدخول</string>
+    <string name="login__fail_account">لا يمكن تسجيل الدخول إلى حسابك</string>
+
+    <!-- Contact Us -->
+    <string name="contact_us__name">اسم جهة الاتصال</string>
+    <string name="contact_us__email">تواصل بالبريد الاكتروني</string>
+    <string name="contact_us__message">رسالة الاتصال</string>
+    <string name="contact_us__phone">الاتصال الهاتف</string>
+    <string name="contact_us__submit">خضع</string>
+
+    <!-- Notification Setting -->
+    <string name="notification_setting__on_off">إعداد الإخطار (تشغيل / إيقاف)</string>
+    <string name="notification_setting__latest_message_from_system">أحدث رسالة من النظام</string>
+    <string name="notification__notification">إخطار!</string>
+    <string name="notification__title">إعلام</string>
+    <string name="notification_setting__title">إعداد الإخطار</string>
+    <string name="notification_detail__title">تفاصيل الإخطار</string>
+    <string name="notification__alert">محزر</string>
+    <string name="notification__custom_alert">إعلام</string>
+    <string name="notification__custom_open">فتح البند</string>
+
+    <!-- Language -->
+    <string name="language__english">الإنجليزية</string>
+    <string name="language__arabic">عربى</string>
+    <string name="language__spanish">الأسبانية</string>
+    <string name="language__language_change">هل تريد بالتأكيد التغيير إلى %1$s؟</string>
+    <string name="language__title">لغة</string>
+
+    <!-- Comment -->
+    <string name="comment__replies">-- %1$s ردود</string>
+    <string name="comment__dates">-- %1$s </string>
+    <string name="comment__title">قائمة التعليقات</string>
+    <string name="comment__detail_title">تعليق الردود</string>
+    <string name="comment__empty_comment">التعليق فارغ.</string>
+    <string name="comment__comment">تعليق</string>
+
+    <!-- Rating -->
+    <string name="rating__list">قائمة التقييم</string>
+    <string name="rating__write_review">أكتب مراجعة</string>
+    <string name="rating__total_count">%1$s آراء العملاء</string>
+    <string name="rating__total_value">%1$s من 5 نجوم</string>
+    <string name="rating__total_count_n_value">%1$s out of 5 stars (%2$s Reviews)</string>
+    <string name="rating__count">%1$s التعليقات</string>
+    <string name="rating__percent">%1$s %%</string>
+    <string name="rating__in_stock">في المخزن</string>
+    <string name="rating__title">عنوان</string>
+    <string name="rating__message">رسالة</string>
+    <string name="rating__user_rating">دخول تقييم المستخدم!</string>
+    <string name="rating__your_rating">تقييمك</string>
+    <string name="rating__five_star">5 نجمة</string>
+    <string name="rating__four_star">4 نجمة</string>
+    <string name="rating__three_star">3 نجمة</string>
+    <string name="rating__two_star">2 نجمة</string>
+    <string name="rating__one_star">1 نجمة</string>
+    <string name="rating__rating_range">نطاق التقييم</string>
+    <string name="rating__one">1 وما فوق</string>
+    <string name="rating__two">2 وأعلى</string>
+    <string name="rating__three">3 وأعلى</string>
+    <string name="rating__four">4 وأعلى</string>
+    <string name="rating__five">5 \n</string>
+    <string name="rating__comar">","</string>
+    <string name="rating_value">تقييم</string>
+    <string name="rating_city_value">تقييم</string>
+
+    <!--Button Sheet Dialog Messages-->
+    <string name="dialog__title_m_mun">فرز</string>
+    <string name="popular__m_mun">جمع</string>
+    <string name="recent__m_mun">آخر</string>
+    <string name="char_asc__m_mun">A -> Z</string>
+    <string name="char_desc__m_mun">Z -> A</string>
+
+    <!-- edit setting -->
+    <string name="edit_setting__notification_setting">إعداد الإخطار</string>
+    <string name="edit_setting__edit_profile">تعديل الملف الشخصي</string>
+    <string name="edit_setting__logout">الخروج</string>
+    <string name="edit_setting__logout_question">هل أنت متأكد من تسجيل الخروج؟</string>
+    <string name="edit_setting__terms_and_conditions">الأحكام والشروط</string>
+    <string name="edit_setting__app_info">معلومات التطبيق</string>
+    <string name="edit_setting__title">ضبط</string>
+
+    <!-- profile more -->
+    <string name="more__post_title">المشاركات</string>
+    <string name="more__activity_title">أنشطة</string>
+    <string name="more__setting_and_privacy">الإعداد والخصوصية</string>
+    <string name="more__pending_posts_title">منشور معلق</string>
+    <string name="more__pending_list">قائمتك المعلقة التي تنتظر الموافقة من المسؤول.</string>
+    <string name="more__active_posts_title">:عدد المشاركات</string>
+    <string name="more__active_list">مشاركاتك التي يمكنها البحث من قبل مستخدم آخر.</string>
+    <string name="more__paid_ads_title">الإعلانات المدفوعة</string>
+    <string name="more__promote_list">.الترويج القوائم البند لك</string>
+    <string name="more__favourites_title">المفضلة</string>
+    <string name="more__favourites_posts">.الوظائف التي تريد</string>
+    <string name="more__offer_title">عروض</string>
+    <string name="more__offer_list"> .تلقي أو إرسال عرض القائمة</string>
+    <string name="more__follower_title">متابعون</string>
+    <string name="more__follower_list">.المستخدمين الذين تتبع لكم</string>
+    <string name="more__following_title">التالية</string>
+    <string name="more__following_list">.المستخدمين الذين التالية لك</string>
+    <string name="more__history_title">التاريخ</string>
+    <string name="more__history_list">تاريخ التصفح الخاص بك</string>
+    <string name="more__block_user">مستخدمين محجوبين</string>
+    <string name="more__block_user_list"> .قائمة المستخدم الذي المحظورة</string>
+    <string name="more__report_item"> عناصر ذكرت</string>
+    <string name="more__report_item_list">قائمة العنصر الذي ذكرت</string>
+    <string name="more__deactivate_account">تعطيل الحساب</string>
+    <string name="more__deactivate_recover">.(لا يمكنك استرداد حسابك، بعد إلغاء التنشيط)</string>
+    <string name="more__app_setting">إعداد التطبيق</string>
+
+    <!-- Message -->
+    <string name="message__register_success">سجل بنجاح</string>
+    <string name="message__loading">جار التحميل…</string>
+    <string name="message__please_wait">ارجوك انتظر…</string>
+    <string name="message__welcome">نموذج الترحيب PS Market</string>
+    <string name="message__want_to_quit">حقيقة تريد الاستقالة؟</string>
+    <string name="message__ok_close">حسنا</string>
+    <string name="message__cancel_close">إلغاء</string>
+    <string name="message__seller">من البائعين</string>
+    <string name="message__buyer">من المشترين</string>
+    <string name="offer_message__seller" >تم إرسال العرض</string>
+    <string name="offer_message__buyer" >تم استلام العرض</string>
+    <string name="confirm_message__delete">هل أنت متأكد من حذف هذه الرسالة؟</string>
+    <string name="message__delete">حذف</string>
+    <string name="message__copy">نسخ</string>
+    <string name="message__cancel">إلغاء</string>
+    <string name="chat_message__copied">نسخ</string>
+
+    <!-- Search -->
+    <string name="search__notSet">غير مضبوط</string>
+    <string name="search__by_name">اسم المنتج</string>
+    <string name="search__by_type">نوع المنتج</string>
+    <string name="search__by_sub_type">نوع المنتج الفرعي</string>
+    <string name="search__by_price">نطاق السعر</string>
+    <string name="search__lowest_price">الحد الأدنى</string>
+    <string name="search__highest_price">أقصى</string>
+    <string name="search__special_check">شيك خاص</string>
+    <string name="search__feature">منتجات مميزة</string>
+    <string name="search__discount_price">أسعار الخصم</string>
+    <string name="search__search">بحث</string>
+    <string name="search__title_activity_font_select">FontSelectActivity</string>
+
+    <!--Special_Filtering-->
+    <string name="sf__notSet">غير مضبوط</string>
+    <string name="sf__notSet_zg">غير مضبوط</string>
+    <string name="sf__ByItemType">عنوان القائمة</string>
+    <string name="sf__ByPrice">ضع سعر</string>
+    <string name="sf__LowestPrice">أقل سعر</string>
+    <string name="sf__HighestPrice">اغلى سعر</string>
+    <string name="sf__AdvanceFiltering">تصفية متقدمة</string>
+    <string name="sf__Feature">عناصر الميزة</string>
+    <string name="sf__Discount">البنود الخصم</string>
+    <string name="sf__Filter_Button">منقي</string>
+    <string name="sf__Search_Button">Search</string>
+    <string name="typefilter">تصفية حسب نوع المنتج</string>
+    <string name="sf__deal_option">خيار الصفقة</string>
+    <string name="sf__price_type">نوع السعر</string>
+    <string name="sf__item_conditio">حالة السلعة</string>
+    <string name="sf__type">نوع</string>
+
+    <!-- Error Message -->
+    <string name="error_message__select_location">يرجى اختيار الموقع!</string>
+    <string name="error_message__login_first">الرجاء تسجيل الدخول أولا!</string>
+    <string name="error_message__rating">يرجى ملء تماما لتقييم.</string>
+    <string name="error_message__youtube_not_valid">يوتيوب غير صالح.</string>
+    <string name="error_message__blank_email">الرجاء إدخال البريد الإلكتروني.</string>
+    <string name="error_message__choose_category">اختر الفئة الأولى</string>
+    <string name="error_message__insert_value_search">أدخل قيمة للبحث</string>
+    <string name="error_message__order_fail">فشلت العملية مع خطأ غير معروف! حاول مرة اخرى</string>
+    <string name="error_message__blank_contact_message">يرجى إدخال رسالة الاتصال.</string>
+    <string name="error_message__blank_password">يرجى إدخال كلمة السر.</string>
+    <string name="error_message__blank_name">الرجاء إدخال الاسم.</string>
+    <string name="error_message__blank_phone_no">الرجاء إدخال رقم الهاتف.</string>
+    <string name="error_message__blank_keyword">الرجاء إدخال كلمة البحث.</string>
+    <string name="error_message__password_not_equal">كلمة المرور ليست متساوية!</string>
+    <string name="error_message__no_internet">لا يوجد اتصال بالإنترنت.</string>
+    <string name="error_message__email_exists">البريد الالكتروني موجود بالفعل</string>
+    <string name="error_message__image_cannot_upload">لا يمكن تحميل الصورة</string>
+    <string name="error_message__item_cannot_upload">لا يمكن تحميل العنصر</string>
+    <string name="error_message__code_not_verify">الرمز الخاص بك غير التحقق.</string>
+    <string name="error_message__already_accept">البند الخاص بك قد تم بيعها بالفعل</string>
+    <string name="error_message__webp_image">عذرا ، لا يمكنك تحميل صورة .webp</string>
+    <string name="error_message__to_check_agreement">تحتاج إلى التحقق من اتفاق الخصوصية والسياسة.</string>
+
+    <!--FeatureUIButton-->
+    <string name="Feature_UI_Type__Button">الفئة</string>
+    <string name="Feature_UI_Tune__Button">تصفية وفرز</string>
+    <string name="Feature_UI_Sort__Button">تصفية مع خريطة</string>
+    <string name="Feature_UI__item_list_no_item_title">لايوجد بيانات</string>
+    <string name="Feature_UI__item_list_no_item_desc">لا يوجد نتيجة! يرجى المحاولة لضبط الفلتر.</string>
+    <string name="Feature_UI__item_list_loading_item_title">نحن التحميل</string>
+    <string name="Feature_UI__search_alert_cat_title">اختر الفئة</string>
+    <string name="Feature_UI__search_alert_sub_cat_title">اختر الفئة الفرعية</string>
+    <string name="Feature_UI__search_alert_type_title">اختر نوع العنصر</string>
+    <string name="Feature_UI__search_alert_price_type_title">اختر نوع سعر البند</string>
+    <string name="Feature_UI__search_alert_condition_title">اختيار حالة البند</string>
+    <string name="Feature_UI__search_alert_deal_option_title">اختيار خيار صفقة البند</string>
+    <string name="Feature_UI__search_alert_location_title">اختر خيار موقع العنصر</string>
+    <string name="Feature_UI__search_alert_currency_title">اختر عنصر عملة الخيار</string>
+
+    <!-- About Us -->
+    <string name="about_us__phone">هاتف</string>
+    <string name="about_us__facebook">فيس بوك</string>
+    <string name="about_us__gplus">جوجل بلس</string>
+    <string name="about_us__instagram">إينستاجرام</string>
+    <string name="about_us__youtube">موقع YouTube</string>
+    <string name="about_us__pinterest">موقع Pinterest</string>
+    <string name="about_us__twitter">تغريد</string>
+    <string name="about_us__visit_website">زيارة إلى موقعنا</string>
+    <string name="about_us__email">البريد الإلكتروني</string>
+    <string name="about_us__contact">اتصل</string>
+    <string name="about_us__source_address">عنوان المصدر</string>
+    <string name="about_us__title">معلومات التطبيق</string>
+
+    <!-- Profile -->
+    <string name="profile__title">الملف الشخصي</string>
+    <string name="profile__name">اسم</string>
+    <string name="profile__edit">تصحيح</string>
+    <string name="profile__likes">الإعجابات</string>
+    <string name="profile__history">التاريخ</string>
+    <string name="profile__favourites">المفضلة</string>
+    <string name="profile__setting">ضبط</string>
+    <string name="profile__joined_on">انضم على</string>
+    <string name="profile__joined_date">تاريخ الانضمام</string>
+    <string name="profile__orders">أوامر</string>
+    <string name="profile__see_all">اظهار الكل</string>
+    <string name="profile__verified">التحقق</string>
+    <string name="profile__status">الحالة</string>
+    <string name="profile__notification">إعلام</string>
+    <string name="profile__followers">متابعون</string>
+    <string name="profile__following">التالية</string>
+    <string name="profile__listing">قائمة</string>
+    <string name="profile__pending_listing">قائمة معلقة</string>
+    <string name="profile__rejected_listing">الإدراج المرفوض</string>
+    <string name="profile__disabled_listing">قائمة معطلة</string>
+    <string name="profile__follow">إتبع</string>
+    <string name="profile__unfollow">الغاء المتابعة</string>
+    <string name="profile__user_block"><u>منع هذا المستخدم</u></string>
+    <string name="profile__joined">انضم - </string>
+    <string name="profile__deactivate">تعطيل الحساب</string>
+    <string name="profile__confirm_deactivate">هل أنت متأكد من إلغاء تنشيط هذا الحساب؟</string>
+
+    <!-- Edit Profile -->
+    <string name="edit_profile__title">تعديل الملف الشخصي</string>
+    <string name="edit_profile__user_name">اسم المستخدم</string>
+    <string name="edit_profile__about_me">عني</string>
+    <string name="edit_profile__email">البريد الإلكتروني</string>
+    <string name="edit_profile__password">كلمه السر</string>
+    <string name="edit_profile__password_change">تغيير كلمة السر</string>
+    <string name="edit_profile__save">حفظ</string>
+    <string name="edit_profile__show_email">إظهار البريد الإلكتروني لمستخدم آخر</string>
+    <string name="edit_profile__show_phone_no">اعرض رقم الهاتف لمستخدم آخر</string>
+    <string name="edit_profile__town">مدينة</string>
+    <string name="edit_profile__division">قطاع</string>
+    <string name="edit_profile__country">بلد</string>
+    <string name="edit_profile__phone">هاتف</string>
+    <string name="edit_profile__address">عنوان الشحن</string>
+    <string name="first_name">الاسم الاول</string>
+    <string name="last_name">الكنية</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="phone">هاتف</string>
+    <string name="company">شركة</string>
+    <string name="address_1">العنوان 1</string>
+    <string name="address_2">العنوان 2</string>
+    <string name="country">بلد</string>
+    <string name="state">حالة</string>
+    <string name="city">مدينة</string>
+    <string name="postal_code">الرمز البريدي</string>
+    <string name="next">التالى</string>
+    <string name="verify_email">التحقق من البريد الإلكتروني</string>
+    <string name="verify_phone_code">أدخل رمز OTP</string>
+
+
+    <!-- Menu -->
+    <string name="menu__home">الصفحة الرئيسية</string>
+    <string name="menu__all_cities">كل المدن</string>
+    <string name="menu__popular_cities">مدن شعبية</string>
+    <string name="menu__recommended_cities">المدن الموصى بها</string>
+    <string name="menu__profile">الملف الشخصي</string>
+    <string name="menu__like">مثل</string>
+    <string name="menu__favourite_items">مفضل</string>
+    <string name="menu__transaction">عملية تجارية</string>
+    <string name="menu__user_history">سجل المستخدم</string>
+    <string name="menu__logout">الخروج</string>
+    <string name="menu__about_app">معلومات عنا</string>
+    <string name="menu__contact_us">معلومات عنا</string>
+    <string name="menu__notification_setting">إعداد الإخطار</string>
+    <string name="menu__language">لغة</string>
+    <string name="menu__setting">ضبط</string>
+    <string name="menu__user">المستعمل</string>
+    <string name="menu__interest">فائدة</string>
+    <string name="menu__app_setting">التطبيق</string>
+    <string name="menu__user_info">معلومات المستخدم</string>
+    <string name="menu__save">حفظ</string>
+    <string name="menu__search">بحث</string>
+    <string name="menu__side_bar_menu">قائمة التسوق</string>
+    <string name="menu__filter">منقي</string>
+    <string name="menu__latest_item">أحدث العناصر</string>
+    <string name="menu__discount">عناصر الترويج </string>
+    <string name="menu__category">الفئة </string>
+    <string name="menu__featured_item">أفضل الأشياء البنود</string>
+    <string name="menu__subcategory">الفئة الفرعية</string>
+    <string name="menu__trending_item">العناصر الشعبية</string>
+    <string name="menu__featured_items">السلع المعروضة</string>
+    <string name="menu__trending_category">تتجه الفئات</string>
+    <string name="menu__home_category_view_All_zg">عرض الكل</string>
+    <string name="menu__home_category_view_All_un">عرض الكل</string>
+    <string name="menu__home_category_textView">الاقسام</string>
+    <string name="menu__collections">مجموعات</string>
+    <string name="menu__map_filter_apply">تطبيق</string>
+    <string name="menu__map_filter_reset">إعادة تعيين</string>
+    <string name="menu__home_discount_view_all">عرض جميع المنتجات الخصم</string>
+    <string name="menu__rate">قيم هذا التطبيق</string>
+    <string name="menu__message">رسالة</string>
+    <string name="menu__chat">دردشة</string>
+    <string name="menu__report_item">العناصر المبلغ عنهاء</string>
+    <string name="menu__blocked_users">مستخدمين محجوبين</string>
+    <string name="menu__share">شارك</string>
+    <string name="menu__item_report_item">بلغ عن شيء</string>
+    <string name="menu__item_block_user">مستخدم محضور</string>
+    <string name="menu__privacy_policy">اسياسة خاصة</string>
+    <string name="menu__paid_ad_transaction">دفع عملية AD</string>
+    <string name="menu__offer_item">عرض</string>
+    <string name="menu__offer_message">عرض</string>
+
+    <!-- Collection List -->
+    <string name="collection__list_title">قائمة المجموعة</string>
+
+    <!--Item detail-->
+    <string name="item_detail__isFeatured">متميز</string>
+    <string name="item_detail__rating">لا يوجد تقييم.</string>
+    <string name="item_detail__view_count">%1$s الآراء</string>
+    <string name="item_detail__review_count">%1$s التعليقات</string>
+    <string name="item_detail__comment_count">%1$s تعليقات</string>
+    <string name="item_detail__fav_count">%1$s مفضل</string>
+    <string name="item_detail__time">%1$s - %2$s</string>
+    <string name="item_detail__time_remark">تعليق : %1$s</string>
+    <string name="item_detail__category">%1$s / %2$s</string>
+    <string name="item_detail__read_more">قراءة المزيد</string>
+    <string name="item_detail__view_on_map">عرض على الخريطة</string>
+    <string name="item_detail__call">مكالمة</string>
+    <string name="item_detail__what_you_get">على ماذا حصلت ؟</string>
+    <string name="item_detail__address">عنوان</string>
+    <string name="item_detail__hour">ساعة الافتتاح</string>
+    <string name="item_detail__highlight">معلومات بارزة</string>
+    <string name="item_detail__info">معلومات الاتصال</string>
+    <string name="item_detail__statistic">إحصائية</string>
+    <string name="item_detail__tag">الكلمات</string>
+    <string name="item_detail__category_title">الفئة</string>
+    <string name="item_detail__how_rate">ما هو تقييمك لهذا المكان ؟</string>
+    <string name="item_detail__policy">سياسة الإلغاء</string>
+    <string name="item_detail__term_con">أحكام وشروط</string>
+    <string name="item_detail__add_info">معلومات إضافية</string>
+    <string name="item_detail__help_other">ساعد الآخرين في العثور على أفضل مكان للاستمتاع</string>
+    <string name="item_detail__getting_this">الحصول على هذا</string>
+    <string name="item_detail__meet_seller">قابل البائع</string>
+    <string name="item_detail__joined_date">انضم -</string>
+    <string name="item_detail__chat">دردشة</string>
+    <string name="item_detail__edit">تصحيح</string>
+    <string name="item_detail__like">الإعجابات</string>
+    <string name="item_detail__sold">تم البيع</string>
+    <string name="item_detail__order_not_more_than_one">البند يمكن أن تأمر أكثر من واحد.</string>
+    <string name="item_detail__order_more_than_one">البند يمكن طلب أكثر من واحد.</string>
+    <string name="item_detail__photo">صورة فوتوغرافية</string>
+    <string name="item_detail__photos">الصور</string>
+    <string name="item_detail__mark_sold">اجعلها مباعة</string>
+    <string name="item_detail__delete">حذف</string>
+    <string name="item_detail__confirm_delete">هل أنت متأكد من حذف هذا العنصر؟</string>
+    <string name="item_detail__confirm_sold_out">هل أنت متأكد من بيع هذا المنتج؟</string>
+    <string name="item_detail__confirm_report_item">تأكيد للإبلاغ عن عنصر</string>
+    <string name="item_detail__confirm_block_user">تأكيد لحظر المستخدم</string>
+    <string name="item_detail__safety_tip">نصائح السلامة</string>
+    <string name="item_detail__item_location">موقع السلعة</string>
+    <string name="item_detail__promote_title">تعزيز البند الخاص بك</string>
+    <string name="item_detail__promote_sub_title">تعزيز البند الخاص بك والوصول إلى المزيد من المشترين</string>
+    <string name="item_detail__promote_description">السماح لمزيد من الناس على اكتشاف البند الخاص بك وعرض البند الخاص بك في الجزء العلوي من القوائم.</string>
+    <string name="item_detail__promote">تروج \ يشجع \ يعزز \ ينمى \ يطور</string>
+    <string name="item_detail__price_type">نوع السعر</string>
+
+    <string name="item_entry_detail__item_name">اسم العنصر</string>
+    <string name="item_entry_detail__category_name">الفئة</string>
+    <string name="item_entry_detail__subcategory_name">التصنيف الفرعي</string>
+    <string name="item_entry_detail__discount_name">نوع الخصم</string>
+    <string name="item_entry_detail__search_name">بحث العلامات / الكلمات الرئيسية</string>
+    <string name="item_entry_detail__description">وصف</string>
+    <string name="item_entry_detail__is_published">يتم نشر</string>
+    <string name="item_entry_detail__item_images">صور البند</string>
+    <string name="item_entry_detail__view_all">عرض الكل></string>
+    <string name="item_entry_detail__btn_attributes">سمات</string>
+    <string name="item_entry_detail__btn_upload_image">تحميل الصور</string>
+    <string name="item_entry_detail__btn_save">حفظ</string>
+    <string name="item_entry_detail__btn_filter">بحث</string>
+    <string name="item_entry_detail__price">السعر</string>
+    <string name="item_entry_detail__title">ما الذي تدرجه اليوم؟</string>
+    <string name="item_entry_detail__desc">اختيار صورة الأرز لعرض ما لديك.</string>
+    <string name="item_entry_detail__remark">تعليق</string>
+    <string name="item_entry_detail__for_free_item">للحصول على عنصر مجاني ، يرجى ضبط السعر على 0</string>
+    <string name="item_entry_detail__shop_setting">متجر الإعداد</string>
+    <string name="item_entry_detail__is_shop">هو متجر؟</string>
+    <string name="item_entry_detail__is_shop_desc">(إذا كان بإمكان المستخدم إظهار أكثر من طلب)</string>
+    <string name="item_entry_detail__highlight">تسليط الضوء على المعلومات</string>
+    <string name="item_entry_detail__latitude">خط العرض</string>
+    <string name="item_entry_detail__longitude">خط الطول</string>
+    <string name="item_entry_detail__location">موقعك</string>
+    <string name="item_entry_detail__address">عنوان</string>
+    <string name="item_entry_detail__submit">خضع</string>
+    <string name="item_entry_detail__brand">العلامة التجارية (اختياري)</string>
+    <string name="item_entry_toolbar">إدخال قائمة</string>
+    <string name="item_entry_sold">تم البيع</string>
+    <string name="item_entry_star">*</string>
+    <string name="item_entry_need_image">يرجى اختيار صورة واحدة على الأقل</string>
+    <string name="item_entry_need_category">اختر الفئة</string>
+    <string name="item_entry_need_subcategory">اختيار الفئة الفرعية</string>
+    <string name="item_entry_need_type">اختر النوع</string>
+    <string name="item_entry_need_list_title">ملء عنوان البند الخاص بك</string>
+    <string name="item_entry_need_item_condition">اختيار حالة البند</string>
+    <string name="item_entry_need_deal_option">اختيار خيار الصفقة</string>
+    <string name="item_entry_need_description">اكتب وصفا للبند الخاص بك</string>
+    <string name="item_entry_need_price">اكتب سعرك</string>
+    <string name="item_entry_need_currency_symbol">اختر رمز عملتك</string>
+    <string name="item_entry_offer_not_zero">لا يمكن أن يكون سعر العرض الخاص بك صفرًا</string>
+    <string name="item_entry_accept_confirm">هل تريد حقًا قبول هذا السعر؟</string>
+    <string name="item_entry_reject_confirm">هل تريد حقًا رفض هذا السعر؟</string>
+    <string name="item_entry_user_not_exit">هذا المستخدم لا يخرج</string>
+    <string name="item_entry_pin_shop">متجر دبوس الموقع</string>
+
+    <string name="item_price_free">مجانا</string>
+    <string name="item_from_follower_toolbar">قوائم البند من التابع</string>
+
+
+    <!--Discount-->
+    <string name="discount__rating5">%1$s rating ( %2$s )</string>
+
+    <!--Map-->
+    <string name="map_filter__map_title">مرشح الخريطة</string>
+    <string name="map_filter__browsing">التصفح حول</string>
+    <string name="map_filter__all">الكل</string>
+    <string name="map_open_gps">الرجاء فتح GPS للحصول على موقعك الحالي!</string>
+
+    <!--Warning-->
+    <string name="no_internet_error">لا يوجد اتصال بالإنترنت.</string>
+
+
+    <!--SUCCESS-->
+
+    <string name="message_sent">تم ارسال رسالتك.</string>
+
+    <!--NOTIFICATION-->
+
+    <string name="update_noti">ارجوك انتظر! لا يزال تحديث إعداد الإخطار.</string>
+    <string name="copied_to_clipboard">نسخ إلى الحافظة.</string>
+    <string name="confirm_to_Buy">يرجى تأكيد لمتابعة هذا الطلب</string>
+    <string name="delete_item_from_basket">هل أنت متأكد من حذف هذا من السلة</string>
+    <string name="add_to_basket_confirm_box">هل أنت متأكد من أن تضيف إلى سلة</string>
+
+    <string name="success">نجاح</string>
+    <string name="confirm">تؤكد</string>
+    <string name="info">INFO</string>
+    <string name="error">خطأ</string>
+    <string name="warning">تحذير</string>
+    <string name="version_update">تحديث الإصدار</string>
+    <string name="update">تحديث</string>
+    <string name="error_message__no_image_uploaded">لم يتم تحميل صورة بعد</string>
+    <string name="error_message__user_deleted">تم حذف حسابك من قبل المسؤول</string>
+    <string name="error_message__user_banned">تم حظر حسابك من قبل المسؤول</string>
+    <string name="error_message__user_unpublished">لم يتم نشر حسابك من قبل المسؤول</string>
+
+    <!--CATEGORY LIST -->
+    <string name="category__list_title">ما هي اهتماتك ؟</string>
+
+    <!--SUB CATEGORY LIST -->
+    <string name="sub_category__list_title">قائمة الفئات الفرعية</string>
+
+    <!--BlogList-->
+    <string name="blog_list__title">قائمة المدونة</string>
+
+    <!--BlogDetail-->
+    <string name="blog_detail__error_message">المدونة التي تحمل هذا المعرف غير موجودة</string>
+    <string name="blog_detail__title">تفاصيل المدونة</string>
+
+    <!--ShopTag-->
+    <!--<string name="shop_category__title">قائمة فئة المتجر</string>-->
+
+    <!--City Menu-->
+    <string name="city_menu__title">قائمة المدينة</string>
+
+    <!-- Selected shop -->
+    <string name="city__sure_to_exit">هل تريد الخروج من هذه المدينة؟</string>
+
+    <!--<string name="shop">متجر</string>-->
+
+    <!--<string name="copy_clipboard">نسخ إلى الحافظة</string>-->
+
+    <!--item list-->
+    <string name="item_list_title">قائمة البند</string>
+
+    <!--force update-->
+    <string name="force_update_true">يتوفر التحديث</string>
+    <string name="force_update__button_update"> تحديث </string>
+
+
+    <!--Dashboard-->
+    <string name="dashboard_keyword">الكلمة</string>
+    <string name="dashboard_best_things">أفضل الأشياء للقيام بها في المدينة</string>
+    <string name="dashboard_popular_cities">مدن شعبية في جميع أنحاء العالم</string>
+    <string name="dashboard_best_cities">أفضل المدن للزيارة في جميع أنحاء العالم</string>
+    <string name="dashboard_new_cities">مدن جديدة</string>
+    <string name="dashboard_blog">مدونة</string>
+    <string name="dashboard_popular_places">أماكن شعبية</string>
+    <string name="dashboard_new_places">أماكن جديدة</string>
+    <string name="dashboard_promo_list">قائمة الترويجي</string>
+
+    <string name="dashboard_review">التعليقات</string>
+
+    <string name="dashboard_city_category">فئات المدينة</string>
+    <string name="dashboard_new_items">أماكن جديدة</string>
+    <string name="dashboard_featured_items">الأماكن المميزة</string>
+    <string name="dashboard_popular_items">أماكن شعبية</string>
+    <string name="dashboard_discount_items">الأماكن مع الخصم</string>
+
+    <string name="dashboard_category_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="dashboard_recent_item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="dashboard_popular_item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="dashboard_follow_item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <!--Dashboard-->
+
+    <!--Selected City-->
+    <string name="selected_city_know_more">أريد أن أعرف المزيد عن هذه المدينة!</string>
+    <string name="selected_city_interested_in">ماالذي تهتم به ؟</string>
+    <string name="selected_city_best_things">أفضل الأشياء للقيام بها في المدينة</string>
+    <string name="selected_city_popular_item">العناصر الشعبية</string>
+    <string name="selected_city_recent">العناصر التي تم تحميلها مؤخرًا</string>
+    <string name="selected_city_item_follower">عناصر من متابعيك</string>
+    <string name="selected_city_read_all">قراءة كل شيء عن هذا اسم المدينة</string>
+    <string name="selected_city_category">الفئة</string>
+    <string name="selected_city_add">أضف</string>
+    <!--Selected City-->
+
+    <!--City List-->
+    <string name="city_list_title">قائمة المدينة</string>
+    <!--City List-->
+
+    <!--Location-->
+    <string name="location_title">موقعك</string>
+    <string name="location_change_later">يمكنك تغيير في وقت لاحق!</string>
+    <string name="location_select">يرجى اختيار المدينة.</string>
+    <string name="location_pick">اختر موقعك</string>
+
+
+    <!--Item Condition-->
+    <string name="item_condition__type">( %1$s )</string>
+
+    <!-- Setting -->
+    <string name="setting__clear_cache_confirm">هل أنت متأكد من مسح ذاكرة التخزين المؤقت للصور؟</string>
+    <string name="setting__clear_image_cache">مسح صورة ذاكرة التخزين المؤقت</string>
+    <string name="setting__image_cache_size">حجم ذاكرة التخزين المؤقت للصور</string>
+    <string name="setting__camera">الة تصوير</string>
+    <string name="setting__change_gdpr">تغيير إعداد الناتج المحلي الإجمالي</string>
+    <string name="setting__version_no">رقم الإصدار:</string>
+
+    <!--Chat-->
+    <string name="chat__retry_message">أخفق تسجيل الدخول إلى الدردشة ، هل تريد إعادة المحاولة؟</string>
+    <string name="chat__retry_retry">إعادة المحاولة</string>
+    <string name="chat__retry_no">لا</string>
+    <string name="chat__accept">قبول</string>
+    <string name="chat__reject">رفض</string>
+    <string name="chat__mark_as_sold">Mark As \nSold</string>
+    <string name="chat__offer">Make \nOffer</string>
+    <string name="chat__make_offer_title">تقديم عرض لهذا البند</string>
+    <string name="chat__make_offer_sender">تقديم عرض</string>
+    <string name="chat__make_offer_receiver">تلقى العرض</string>
+    <string name="chat__accept_text">وافقت</string>
+    <string name="chat__reject_text">مرفوض</string>
+    <string name="chat__sold">تم البيع</string>
+    <string name="chat__offer_accept">قبول العرض</string>
+    <string name="chat__is_user_bought">هو شراء المستخدم</string>
+    <string name="chat__user_bought_message">تم شراء العنصر</string>
+    <string name="chat__give_review">إعطاء مراجعة</string>
+    <string name="chat__item_is_sold">تم بيع العنصر</string>
+    <string name="chat__item_space_error">لا يمكن أن يكون السعر فارغًا</string>
+
+    <!-- Verify Email -->
+    <string name="verify_email__information">لقد تلقيت للتو رسالة بريد إلكتروني تحتوي على رمز التحقق في</string>
+    <string name="verify_email__enter_code">أدخل رمز التحقق</string>
+    <string name="verify_email__change_email">تغيير الايميل</string>
+    <string name="verify_email__resent_code">رمز الاستياء</string>
+    <string name="verify_email__submit">خضع</string>
+    <string name="verify_email__title">تأكيد بواسطة البريد الالكتروني</string>
+
+    <!-- Verify Phone -->
+    <string name="verify_phone__information">لقد تلقيت للتو رسالة هاتفية تحتوي على كود مكتب المدعي العام على</string>
+    <string name="verify_phone__back_login">العودة إلى تسجيل الدخول؟</string>
+    <string name="verify_phone__title">التحقق من رقم الهاتف</string>
+
+    <!--  User -->
+    <string name="user_follower_list_toolbar_name">قائمة المستخدم التابع</string>
+    <string name="user_following_list_toolbar_name">بعد قائمة المستخدم</string>
+
+    <!-- Item Promote -->
+    <string name="item_promote__promote_entry">تشجيع دخول المدينة</string>
+    <string name="item_promote__start_date">إعلانات تاريخ بدء</string>
+    <string name="item_promote__start_date_hint">يرجى تحديد تاريخ بدء</string>
+    <string name="item_promote__promote_custom">مخصص</string>
+    <string name="item_promote__default_custom_price">0</string>
+    <string name="item_promote__days">أيام</string>
+    <string name="item_promote__c_days">أيام</string>
+    <string name="item_promote__promote_for">تعزيز ل</string>
+    <string name="item_promote__how_many_days">كم عدد الايام؟</string>
+    <string name="item_promote__warning_for_start_date">يرجى تحديد تاريخ بدء الخاص بك.</string>
+    <string name="item_promote__warning_for_day">الرجاء تحديد يوم واحد على الأقل</string>
+    <string name="item_promote__amount">كمية</string>
+    <string name="item_promote__paypal">الدفع بواسط باى بال</string>
+    <string name="item_promote__stripe">الأجر مع بطاقة</string>
+    <string name="item_promote__razor">الدفع باستخدام Razor</string>
+    <string name="item_promote__offline">الدفع دون اتصال بالإنترنت</string>
+    <string name="item_promote__paystack">ادفع باستخدام Paystack</string>
+    <string name="item_promote__in_app_purchase">شراء داخل التطبيق</string>
+    <string name="item_promote__other_payments">مدفوعات أخرى</string>
+    <string name="item_promote__purchase_promotion_packages">حزم الترويج</string>
+    <string name="pesapal_payment__title">المدفوعات</string>
+    <string name="item_promote__purchase_buy">يشترى</string>
+    <string name="item_promote__success_message">دفعت بنجاح AD.</string>
+    <string name="item_promote__error_message">دفع الخطأ AD.</string>
+    <string name="item_promote__enter_day">الرجاء إدخال اليوم</string>
+
+    <!-- Paid -->
+    <string name="paid__start_date">تاريخ البدء:</string>
+    <string name="paid__end_date">تاريخ الانتهاء:</string>
+    <string name="paid__amount">مبلغ الإنفاق:</string>
+    <string name="profile__no_paid_ad">لا الإعلان المدفوع</string>
+    <string name="profile__paid_ad">الإعلان المدفوع</string>
+    <string name="paid__ads_in_progress">الإعلانات في التقدم</string>
+    <string name="paid__ads_in_completed">الإعلانات المنجزة</string>
+    <string name="paid__ads_is_not_yet_start">إعلانات ليست بعد بدء</string>
+    <string name="paid__sponsored">برعاية</string>
+
+    <!-- LocationFilter -->
+    <string name="location_filter__title" >منقي</string>
+    <string name="location_filter__name">اسم</string>
+    <string name="location_filter__ordering" >الطلب</string>
+    <string name="location_filter__app_default" >التطبيق الافتراضي</string>
+    <string name="location_filter__latest" >آخر</string>
+    <string name="location_filter__ascending" >تصاعدي</string>
+    <string name="location_filter__descending" >تنازلي</string>
+    <string name="location_filter__button" >منقي</string>
+
+    <!-- PayStack -->
+    <string name="paystack__card_number">رقم البطاقة</string>
+    <string name="paystack__expired_date">منتهي الصلاحية</string>
+    <string name="paystack__expired_month">MM</string>
+    <string name="paystack__expired_year">YY</string>
+    <string name="paystack__cvc">رمز التحقق من البطاقة (CVC)</string>
+    <string name="paystack__xxx">XXX</string>
+    <string name="paystack__card_holder_name">إسم صاحب البطاقة</string>
+    <string name="paystack__choose_card_holder_name">الرجاء إدخال اسم حامل البطاقة</string>
+    <string name="paystack__choose_card_number">الرجاء إدخال رقم البطاقة</string>
+    <string name="paystack__choose_expired_date">الرجاء إدخال تاريخ انتهاء الصلاحية</string>
+    <string name="paystack__choose_cvc">الرجاء إدخال رمز التحقق من البطاقة (CVC)</string>
+    <string name="paystack__performing_trans">جارٍ تنفيذ المعاملة …</string>
+
+    <!-- Offer -->
+    <string name="offer__accept_text">قبلت</string>
+    <string name="offer__offer_text">تقدم</string>
+
+    <!---unblock -->
+    <string name="unblock_confirm_dialig">هل أنت متأكد من إلغاء حظر هذا المستخدم؟</string>
+    <string name="unblock">رفع الحظر</string>
+
+</resources>
+
+
+
+

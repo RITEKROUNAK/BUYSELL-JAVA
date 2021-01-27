@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="item"
+            type="com.panaceasoft.psbuyandsell.viewobject.Item" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="190dp"
+        android:layout_height="320dp"
+        android:background="@drawable/recycler_item_bg">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/newsHolderCardView"
+            android:layout_width="190dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="2dp"
+            android:clipToPadding="false"
+            app:cardCornerRadius="@dimen/space_4"
+            app:cardElevation="0sp"
+            app:cardUseCompatPadding="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="190dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="0dp"
+                    android:layout_height="164dp"
+                    android:contentDescription="@string/image_default__image"
+                    android:scaleType="centerCrop"
+                    app:imageUrl="@{item.defaultPhoto.imgPath}"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:srcCompat="@drawable/placeholder_image" />
+
+                <TextView
+                    android:id="@+id/news_title_textView"
+                    android:layout_width="0dp"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:ellipsize="end"
+                    android:lines="2"
+                    android:maxLines="2"
+                    android:text="@{item.title}"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/text__primary"
+                    android:textSize="@dimen/font_title_size"
+                    app:font='@{"normal"}'
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView"
+                    app:textSize='@{"text"}'
+                    tools:text="Yigit BoyarYigit" />
+
+                <View
+                    android:id="@+id/view95"
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:background="@color/md_grey_200"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/originalPriceTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/text__primary"
+                    android:textSize="@dimen/font_body_size"
+                    app:font='@{"normal"}'
+                    app:layout_constraintBottom_toBottomOf="@+id/priceTextView"
+                    app:layout_constraintStart_toEndOf="@+id/priceTextView"
+                    app:layout_constraintTop_toTopOf="@+id/priceTextView"
+                    tools:text="$2.0" />
+
+                <TextView
+                    android:id="@+id/priceTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/md_deep_orange_700"
+                    android:textSize="@dimen/font_title_size"
+                    app:font='@{"normal"}'
+                    app:layout_constraintBottom_toBottomOf="@+id/currencyTextView"
+                    app:layout_constraintStart_toEndOf="@+id/currencyTextView"
+                    app:layout_constraintTop_toTopOf="@+id/currencyTextView"
+                    app:layout_constraintVertical_bias="0.076"
+                    tools:text="150" />
+
+                <TextView
+                    android:id="@+id/currencyTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/md_deep_orange_700"
+                    android:textSize="@dimen/font_title_size"
+                    app:font='@{"normal"}'
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/news_title_textView"
+                    tools:text="$" />
+
+                <ImageView
+                    android:id="@+id/featuredIconImageView"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:contentDescription="@string/image_default__image"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/baseline_feature_circle_24" />
+
+                <TextView
+                    android:id="@+id/discountTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/baseline_percent_tag_orange_24"
+                    android:contentDescription="@string/image_default__image"
+                    android:paddingStart="@dimen/space_8"
+                    android:paddingTop="@dimen/space_4"
+                    android:paddingEnd="@dimen/space_8"
+                    android:paddingBottom="@dimen/space_4"
+                    android:textColor="@color/md_white_1000"
+                    android:textSize="@dimen/font_body_size"
+                    app:font='@{"normal"}'
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:text="50%" />
+
+                <RatingBar
+                    android:id="@+id/ratingBar"
+                    style="@style/Widget.AppCompat.RatingBar.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:theme="@style/RatingBar"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/currencyTextView" />
+
+                <TextView
+                    android:id="@+id/ratingBarTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="4dp"
+                    android:textColor="@color/text__primary_light"
+                    android:textSize="@dimen/font_body_size"
+                    app:font='@{"normal"}'
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ratingBar"
+                    tools:text="TextView" />
+
+                <!--<com.like.LikeButton-->
+                    <!--android:id="@+id/heartButton"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginEnd="8dp"-->
+                    <!--app:anim_scale_factor="2"-->
+                    <!--app:circle_end_color="@color/md_red_600"-->
+                    <!--app:circle_start_color="@color/md_white_1000"-->
+                    <!--app:dots_primary_color="@color/md_green_600"-->
+                    <!--app:dots_secondary_color="@color/md_blue_300"-->
+                    <!--app:icon_size="20dp"-->
+                    <!--app:icon_type="heart"-->
+                    <!--app:is_enabled="true"-->
+                    <!--app:layout_constraintBottom_toBottomOf="@+id/ratingBarTextView"-->
+                    <!--app:layout_constraintEnd_toEndOf="parent"-->
+                    <!--app:layout_constraintTop_toTopOf="@+id/ratingBarTextView"-->
+                    <!--app:like_drawable="@drawable/heart_on"-->
+                    <!--app:unlike_drawable="@drawable/heart_off" />-->
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/CardNumberTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_24"
+            android:layout_marginLeft="@dimen/space_16"
+            android:layout_marginRight="@dimen/space_16"
+            android:text="@string/paystack__card_number"
+            android:textSize="@dimen/font_title_size"
+            android:textStyle="bold"
+            android:textAlignment="viewStart"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <EditText
+            android:id="@+id/CardNumberEditText"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_40"
+            android:layout_marginTop="@dimen/space_16"
+            android:layout_marginLeft="@dimen/space_16"
+            android:layout_marginRight="@dimen/space_16"
+            android:padding="@dimen/space_8"
+            android:inputType="number"
+            android:hint="@string/paystack__card_number"
+            android:textAlignment="viewStart"
+            android:background="@drawable/custom_progress_bar_horizontal"
+            android:minEms="8"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/CardNumberTextView" />
+
+        <TextView
+            android:id="@+id/ExpiredDateTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="@dimen/space_16"
+            android:layout_marginRight="@dimen/space_16"
+            android:textSize="@dimen/font_title_size"
+            android:textStyle="bold"
+            android:text="@string/paystack__expired_date"
+            android:textAlignment="viewStart"
+            app:layout_constraintTop_toBottomOf="@id/CardNumberEditText" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/dateRow"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_height="@dimen/margin_40"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@+id/ExpiredDateTextView">
+
+            <EditText
+                android:id="@+id/ExpiredMMEditText"
+                android:layout_width="80dp"
+                android:layout_height="@dimen/margin_40"
+                android:layout_marginStart="16dp"
+                android:background="@drawable/custom_progress_bar_horizontal"
+                android:hint="@string/paystack__expired_month"
+                android:inputType="number"
+                android:maxLength="2"
+                android:minEms="2"
+                android:padding="@dimen/space_8"
+                android:textAlignment="viewStart"
+                app:layout_constraintBottom_toBottomOf="@+id/dateRow"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/dateRow" />
+
+
+            <EditText
+                android:id="@+id/ExpiredYYEditText"
+                android:layout_width="80dp"
+                android:layout_height="@dimen/margin_40"
+                android:layout_marginStart="16dp"
+                android:background="@drawable/custom_progress_bar_horizontal"
+                android:hint="@string/paystack__expired_year"
+                android:inputType="number"
+                android:maxLength="2"
+                android:minEms="2"
+                android:padding="@dimen/space_8"
+                android:textAlignment="viewStart"
+                app:layout_constraintBottom_toBottomOf="@+id/dateRow"
+                app:layout_constraintStart_toEndOf="@+id/ExpiredMMEditText"
+                app:layout_constraintTop_toTopOf="@+id/dateRow" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/CvcTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="@dimen/space_16"
+            android:layout_marginRight="@dimen/space_16"
+            android:textSize="@dimen/space_16"
+            android:textStyle="bold"
+            android:text="@string/paystack__cvc"
+            android:textAlignment="viewStart"
+            app:layout_constraintTop_toBottomOf="@id/dateRow" />
+
+        <EditText
+            android:id="@+id/CvcEditText"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_40"
+            android:hint="@string/paystack__xxx"
+            android:maxLength="3"
+            android:minEms="3"
+            android:inputType="number"
+            android:background="@drawable/custom_progress_bar_horizontal"
+            android:layout_marginTop="@dimen/space_16"
+            android:layout_marginLeft="@dimen/space_16"
+            android:layout_marginRight="@dimen/space_16"
+            android:padding="@dimen/space_8"
+            android:textAlignment="viewStart"
+            app:layout_constraintLeft_toLeftOf="@+id/CardNumberTextView"
+            app:layout_constraintTop_toBottomOf="@id/CvcTextView" />
+
+        <TextView
+            android:id="@+id/CardNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="@dimen/space_16"
+            android:layout_marginRight="@dimen/space_16"
+            android:textSize="@dimen/space_16"
+            android:textStyle="bold"
+            android:text="@string/paystack__card_holder_name"
+            android:textAlignment="viewStart"
+            app:layout_constraintTop_toBottomOf="@id/CvcEditText" />
+
+        <EditText
+            android:id="@+id/CardNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_40"
+            android:layout_marginTop="@dimen/space_16"
+            android:layout_marginLeft="@dimen/space_16"
+            android:layout_marginRight="@dimen/space_16"
+            android:hint="@string/paystack__card_holder_name"
+            android:padding="@dimen/space_8"
+            android:inputType="textPersonName"
+            android:textAlignment="viewStart"
+            android:background="@drawable/custom_progress_bar_horizontal"
+            app:layout_constraintLeft_toLeftOf="@+id/CardNumberTextView"
+            app:layout_constraintTop_toBottomOf="@id/CardNameTextView" />
+
+        <Button
+            android:id="@+id/PayStackButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="@dimen/space_16"
+            android:layout_marginRight="@dimen/space_16"
+            android:textColor="@color/md_white_1000"
+            android:text="@string/item_promote__paystack"
+            android:textSize="@dimen/space_16"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/CardNameEditText" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

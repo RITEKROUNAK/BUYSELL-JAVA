@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_blog"
+        android:icon="@drawable/baseline_blog_white_24"
+        android:orderInCategory="100"
+        android:title="@string/dashboard_blog"
+        app:showAsAction="always"
+        />
+</menu>

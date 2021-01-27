@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@+id/mLayout"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        >
+
+        <TextView
+            android:id="@+id/mText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/space_8"
+            android:textSize="@dimen/font_title_size" />
+
+        <ImageView
+            android:id="@+id/downImg"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/space_8"
+            android:layout_marginEnd="@dimen/space_8"
+            android:clickable="false"
+            android:contentDescription="@string/image_default__image"
+            android:scaleType="center"
+            android:src="@drawable/down"
+            android:tint="@color/global__primary" />
+
+    </RelativeLayout>
+</merge>
